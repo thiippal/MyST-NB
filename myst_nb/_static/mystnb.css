@@ -1,7 +1,14 @@
 /* Input cells */
-.cell_input div.highlight pre {
-  border: 1px #ccc solid;
+.cell_input {
+  border: 1px #cfcfcf solid;
+  background-color: #f7f7f7;
 }
+
+.cell_input div * {
+  background: none;
+  background-color: transparent;
+}
+
 
 /* All cell outputs */
 .cell_output {
